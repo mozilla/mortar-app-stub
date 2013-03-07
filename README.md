@@ -8,14 +8,4 @@ template collection for building Open Web Apps.
 
 # Usage
 
-There are a few ways to get this template:
-
 * git clone git://github.com/mozilla/mortar-app-stub.git myapp
-* volo create myapp mozilla/mortar-app-stub
-
-If you have node installed, you can run a development server with volo:
-
-1. cd myapp
-2. volo serve
-
-View the app at http://localhost:8008/.
