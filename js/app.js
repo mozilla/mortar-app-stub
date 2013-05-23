@@ -1,30 +1,27 @@
+var installBtn = document.getElementById('install-btn');
 
-// Wait until the DOM is ready
-$(function() {
-
-    // Write your app here
-
-
-
-});
-
-
-if(navigator.mozApps) {
+if(installBtn) {
+    
+    installBtn.style.display = 'none';
+    
     // If you want an installation button, add this to your HTML:
     //
-    // <button id="install">Install</button>
+    // <button id="install-btn">Install</button>
     //
     // This code shows the button if the apps platform is available
-    // and this isn't already installed.
+    // and this app isn't already installed.
+    if(navigator.mozApps) {
 
-    $('#install-btn').hide().click(function() {
-        navigator.mozApps.install(location.href + 'manifest.webapp');
-    });
+        installBtn.addEventListener('click', function() {
+            navigator.mozApps.install(location.href + 'manifest.webapp');
+        }, false);
 
-    var req = navigator.mozApps.getSelf();
-    req.onsuccess = function() {
-        if(!req.result) {
-            $('#install-btn').show();
-        }
-    };
+        var req = navigator.mozApps.getSelf();
+        req.onsuccess = function() {
+            if(!req.result) {
+                installBtn.style.display = 'block';
+            }
+        };
+
+    }
 }
