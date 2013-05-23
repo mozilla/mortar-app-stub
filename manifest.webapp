@@ -1,6 +1,6 @@
 {
   "version": "0.1",
-  "name": "My App",
+  "name": "My Awesome App",
   "description": "Your new awesome Open Web App",
   "launch_path": "/index.html",
   "icons": {
@@ -16,7 +16,7 @@
   "appcache_path": "/cache.manifest",
   "locales": {
     "es": {
-      "description": "Su nueva aplicación impresionante Open Web",
+      "description": "Su nueva e impresionante Open Web App",
       "developer": {
         "url": "http://yourawesomeapp.com"
       }
