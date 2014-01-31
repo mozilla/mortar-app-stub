@@ -1,7 +1,5 @@
 # A Blank Template for Open Web Apps
 
-*This template has been updated with a new structure as of May 2013. Other mortar templates will be updated soon too.*
-
 This is a minimal template that has a little HTML, CSS, and JavaScript to help
 you start writing an [Open Web App](https://developer.mozilla.org/en-US/docs/Web/Apps).
 
@@ -10,7 +8,9 @@ template collection for building Open Web Apps.
 
 # Usage
 
-* git clone git://github.com/mozilla/mortar-app-stub.git myapp
+```
+git clone git://github.com/mozilla/mortar-app-stub.git myapp
+```
 
 # Readme template
 
@@ -24,11 +24,13 @@ To help others get a good overview of your app, you can use the example below as
 
 ## How to install
 
-    > git clone git://github.com/your-username/your-app.git myapp
+For example:
 
-    > cd your-app
+```bash
+git clone git://github.com/your-username/your-app.git myapp
+```
 
-Load index.html into your browser.
+Open `myapp/index.html` into your browser.
 
 *The above example assumes you are using Github for your app's repository. If you are not, provide alternative instructions here.*
 
