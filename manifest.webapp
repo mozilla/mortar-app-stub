@@ -1,11 +1,12 @@
 {
-  "version": "0.1",
+  "version": "0.2.0",
   "name": "My Awesome App",
   "description": "Your new awesome Open Web App",
   "launch_path": "/index.html",
   "icons": {
     "16": "/img/icons/mortar-16.png",
     "48": "/img/icons/mortar-48.png",
+    "60": "/img/icons/mortar-60.png",
     "128": "/img/icons/mortar-128.png"
   },
   "developer": {
@@ -13,19 +14,12 @@
     "url": "http://yourawesomeapp.com"
   },
   "installs_allowed_from": ["*"],
-  "appcache_path": "/cache.manifest",
   "locales": {
     "es": {
-      "description": "Su nueva e impresionante Open Web App",
-      "developer": {
-        "url": "http://yourawesomeapp.com"
-      }
+      "description": "Tu nueva e impresionante Open Web App",
     },
     "it": {
       "description": "Il vostro nuovo fantastico Open Web App",
-      "developer": {
-        "url": "http://yourawesomeapp.com"
-      }
     }
   },
   "default_locale": "en"
