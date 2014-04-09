@@ -16,10 +16,10 @@
   "installs_allowed_from": ["*"],
   "locales": {
     "es": {
-      "description": "Tu nueva e impresionante Open Web App",
+      "description": "Tu nueva e impresionante Open Web App"
     },
     "it": {
-      "description": "Il vostro nuovo fantastico Open Web App",
+      "description": "Il vostro nuovo fantastico Open Web App"
     }
   },
   "default_locale": "en"
